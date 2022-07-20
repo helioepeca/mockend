@@ -12,8 +12,37 @@
                 "max": 100
             }
         },
+        "orderId": {
+            "int": {
+                "min": 2000000771134734,
+                "max": 2000009771134734
+            }
+        },
+        "buyerID": {
+            "int": {
+                "min": 1,
+                "max": 9999
+            }
+        },
         "buyerEmail": {
             "regexp": "[a-z]{5,10}@[a-z]{5}\\.[a-z]{2,3}"
+        },
+        "totalPrice": {
+            "int": {
+                "min": 100.00,
+                "max": 5000.00
+            }
+        },
+        "nf": {
+            "string": {}
+        },
+        "status": {
+            "string": [
+                "PENDENTE",
+                "RECUSADO",
+                "PARCIAL",
+                "APROVADO"
+            ]
         }
     }
 }
