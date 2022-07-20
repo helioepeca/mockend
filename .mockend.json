@@ -1,5 +1,5 @@
 {
-    "Compras": {
+    "Compra": {
         "createdAt": {
             "dateTime": {
                 "min": "2022-01-01T00:00:00Z",
