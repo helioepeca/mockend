@@ -1,18 +1,19 @@
 {
-    "Post": {
-        "title": {
-            "string": {}
+    "Compras": {
+        "createdAt": {
+            "dateTime": {
+                "min": "2022-01-01T00:00:00Z",
+                "max": "2022-12-31T23:59:59Z"
+            }
         },
-        "comments": {
-            "hasMany": "Comment"
-        }
-    },
-    "Comment": {
-        "body": {
-            "string": {}
+        "qtd": {
+            "int": {
+                "min": 0,
+                "max": 100
+            }
         },
-        "post": {
-            "belongsTo": "Post"
+        "buyerEmail": {
+            "regexp": "[a-z]{5,10}@[a-z]{5}\\.[a-z]{2,3}"
         }
     }
 }
