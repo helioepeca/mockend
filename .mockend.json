@@ -91,7 +91,7 @@
             ]
         },
         "approvedItems": {
-            "itemPn": {}
+            "string": {}
         }
     }
 }
