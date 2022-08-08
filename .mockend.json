@@ -91,11 +91,8 @@
             ]
         },
         "approvedItems": {
-            "itemPN": {
-                "string": [
-                    "Thor",
-                    "Loki"
-                ]
+            "itemPn": {
+                "string": {}
             }
         }
     }
